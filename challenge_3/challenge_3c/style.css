@@ -11,8 +11,22 @@ div div {
 	margin: auto;
 	width: 33%;
 	height: 250px;
+	display: block;
 }
 
 #big_div {
 	border: 5px solid black;
+	display: flex;
+}
+#sub_div1{
+	display: flex;
+	align-items: start;
+}
+#sub_div2{
+	display: flex;
+	align-items: center;
+}
+#sub_div3{
+	display: flex;
+	align-items: end;
 }
